@@ -46,7 +46,7 @@ export default {
     addset() {
     //   Indicator.open();
     //   Indicator.close();
-   Indicator.open('加载中...');
+  //  Indicator.open('加载中...');
        
    
       

@@ -31,6 +31,10 @@ Vue.use(VueResource)
 // 导入格式化时间的插件 
 import moment from 'moment'
 
+// import axios from 'axios'
+// import VueAxios from 'vue-axios'
+// Vue.use(VueAxios,axios)
+
 // 定义全局事件过滤器
 Vue.filter('dateFormat', function (dateStr, pattern = "YYYY-MM-DD HH:mm:ss ") {
     return moment(dateStr).format(pattern)
